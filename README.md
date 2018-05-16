@@ -9,15 +9,17 @@ single script tag.
 
 # Install:
 
-npm install
+`npm install`
 
 # Building:
 
 Run:
 
-  ./node_modules/bin/webpack
+  `./node_modules/bin/webpack`
 
-This will create a file dist/bundle.js Include it in your javascript.
+This will create a file `dist/bundle.js` 
+
+Include it as a script tag in your html file.
 
 # Sources:
 
