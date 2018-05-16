@@ -1,13 +1,7 @@
 module.exports = {
-	entry: "./src/index.js",
+	entry: "./src/editor.js",
 	output: {
-		filename: "./dist/bundle.js"
+		filename: "bundle.js"
 	},
-	module: {
-		loaders: [{
-			test: /\.js$/,
-			exclude: /node_modules/,
-			loader: 'babel-loader'
-		}]
-	}
+	mode: "development"
 }

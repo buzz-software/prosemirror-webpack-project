@@ -4,8 +4,7 @@
   "engines": {
     "node": "8.9.4"
   },
-  "description": "Buzz Editor",
-  "main": "app.js",
+  "description": "Editor",
   "private": true,
   "scripts": {
     "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
@@ -20,6 +19,9 @@
     "prosemirror-example-setup": "^1.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.15.1"
+    "nodemon": "^1.15.1",
+    "prosemirror-schema-basic": "^1.0.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
   }
 }
