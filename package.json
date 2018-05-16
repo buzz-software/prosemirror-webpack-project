@@ -1,5 +1,5 @@
 {
-  "name": "buzz-editor",
+  "name": "editor",
   "version": "0.0.1",
   "engines": {
     "node": "8.9.4"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bbalban/express-test.git"
+    "url": "git@github.com:buzz-software/prosemirror-webpack-project.git"
   },
   "author": "Bahadir Balban",
   "license": "MIT",
