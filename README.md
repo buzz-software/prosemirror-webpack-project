@@ -28,4 +28,6 @@ The example minimal editor in http://prosemirror.net/examples/basic/ is placed i
 
 # Notes:
 
-Note, the editor will appear on your page, but in an awkward fashion. You need to include CSS files.
+- Add html_snippet.html to your html body to create divs with editor and content ids.
+
+- Note, the editor will appear on your page, but in an awkward fashion. You need to include CSS files.
