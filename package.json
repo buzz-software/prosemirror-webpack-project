@@ -1,0 +1,25 @@
+{
+  "name": "buzz-editor",
+  "version": "0.0.1",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "description": "Buzz Editor",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bbalban/express-test.git"
+  },
+  "author": "Bahadir Balban",
+  "license": "MIT",
+  "dependencies": {
+    "prosemirror-example-setup": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
